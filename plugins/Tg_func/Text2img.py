@@ -27,10 +27,10 @@ async def wall(client, message):
     quew = get_text(message)
     if not quew:
         await client.send_message(
-            message.chat.id, "😶 **ᴩʟᴇᴀsᴇ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ᴡᴀʟʟᴩᴀᴩᴇʀ !**"
+            message.chat.id, "😶 **ᴩʟᴇᴀsᴇ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʟᴏɢᴏ !**"
         )
         return
-    m = await client.send_message(message.chat.id, "⚙️ **sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ᴡᴀʟʟᴩᴀᴩᴇʀ...**")
+    m = await client.send_message(message.chat.id, "⚙️ **ᴄʀᴇᴀᴛɪɴɢ.. ʟᴏɢᴏ...**")
     try:
         text = get_text(message)
         LOGO_API = f"https://single-developers.up.railway.app/logo?name={text}"
@@ -47,7 +47,7 @@ async def wall(client, message):
         fname = "TeDzO.png"
         img.save(fname, "png")
         caption = f"""
-💘 ᴡᴀʟʟᴩᴀᴩᴇʀ ɢᴇɴᴇʀᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 
+💘 ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 
 ✨ **ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :`{MY_NAME}`
 🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}
 ❄ **ᴅᴏᴡɴʟᴏᴀᴅ :** `{murl}`
