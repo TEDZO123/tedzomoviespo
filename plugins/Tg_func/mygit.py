@@ -43,17 +43,17 @@ async def github(_, message):
                 followers = result["followers"]
                 following = result["following"]
                 caption = f"""**Info Of {name}**
-    **Username:** `{username}`
-         **Bio:** `{bio}`
+**Username:** `{username}`
+**Bio:** `{bio}`
 **Profile Link:** [Here]({url})
-     **Company:** `{company}`
-  **Created On:** `{created_at}`
+**Company:** `{company}`
+**Created On:** `{created_at}`
 **Repositories:** `{repositories}`
-        **Blog:** `{blog}`
-    **Location:** `{location}`
-   **Followers:** `{followers}`
-   **Following:** `{following}`
-     **Created:**   CREDI_T """
+**Blog:** `{blog}`
+**Location:** `{location}`
+**Followers:** `{followers}`
+**Following:** `{following}`
+[©ᴛᴇᴅᴢᴏ](t.me/tedzo01)"""
             except Exception as e:
                 print(str(e))
                 pass
