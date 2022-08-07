@@ -3,7 +3,7 @@
   <img src="https://telegra.ph/file/450c33578b86ee925158d.jpg" alt="MKN BOTZ LOGO">
 </p>
 <h1 align="center">
-  <b> 𝐂𝐋 𝐀𝐅 v9 </b>
+  <b> 🤍 v9 </b>
 </h1>
 
 
