@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.message.delete()
         await query.message.reply_text(
-            text=f"✨ ʜᴇʟʟᴏ {query.from_user.mention} !\n\n💭 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ **ᴛᴇᴅᴢᴏ** ᴛᴏᴏʟs ʙᴏᴛ [🛠️](https://telegra.ph/file/3bd3bc52e8f9a68f0bc9f.mp4)\n ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ʜᴇʟᴘғᴜʟʟ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴜᴛᴏғɪʟᴇʀ ɪɴ \n\n💡 ʜɪᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴍᴏᴅᴜʟᴇs\nʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ » 📚\nCᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ!\n\nᴛʜɪs ʙᴏᴛ ᴍᴀɪɴʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴍʏ **ᴏᴡɴᴇʀ**❗",
+            text=f"✨ ʜᴇʟʟᴏ {query.from_user.mention} !\n\n💭 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ **ᴛᴇᴅᴢᴏ** ᴛᴏᴏʟs ʙᴏᴛ [🛠️](https://telegra.ph/file/4b49de5c637964bd177c9.mp4)\n ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ʜᴇʟᴘғᴜʟʟ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴜᴛᴏғɪʟᴇʀ ɪɴ \n\n💡 ʜɪᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴍᴏᴅᴜʟᴇs\nʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ » 📚\nCᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ!\n\nᴛʜɪs ʙᴏᴛ ᴍᴀɪɴʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴍʏ **ᴏᴡɴᴇʀ**❗",
             reply_markup=InlineKeyboardMarkup( [[
                InlineKeyboardButton("✨ ᴀʙᴏᴜᴛ", callback_data="about")
                ],[
@@ -856,8 +856,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴢᴏᴍʙɪᴇ', callback_data='zombies')
             ],[
             InlineKeyboardButton('⏮️ ʙᴀᴄᴋ ⏮️', callback_data='help'),
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start')           
-        ]]
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
+            InlineKeyboardButton('⏭️ ɴᴇxᴛ ⏭️', callback_data='tzo')
+      ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
             text="⦿"
@@ -895,6 +896,38 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "tzo":
+        buttons = [[   
+            InlineKeyboardButton('ɢɪᴛʜᴜʙ', callback_data='github'),
+            InlineKeyboardButton('ʟᴏɢᴏ-ɢᴇɴ', callback_data='logogen'),
+            InlineKeyboardButton('ᴡᴀʟʟᴘᴀᴘᴇʀ', callback_data='wallpaper')
+            ],[
+            InlineKeyboardButton('ʏᴛ-sᴇʀᴄʜ', callback_data='ytsh'),
+            InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='sooon'),
+            InlineKeyboardButton('ᴅʏɴᴏ', callback_data='sooon')
+            ],[
+            InlineKeyboardButton('ᴡʀɪᴛᴇ-ᴛᴏᴏʟ', callback_data='sooon'),
+            InlineKeyboardButton('ʟᴏɢᴏ2', callback_data='sooon'),
+            InlineKeyboardButton('sᴏᴏɴ', callback_data='sooon')
+            ],[
+            InlineKeyboardButton('⏮️ ʙᴀᴄᴋ ⏮️', callback_data='mkn'),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start')           
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)       
+        await query.message.edit_text(
+            text="⦿"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿⦿⦿"
+        )
+        await query.message.edit_text(                     
+            text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
@@ -912,6 +945,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.RESTRIC_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sooon":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='tzo')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=f"✨ ʜᴇʟʟᴏ {query.from_user.mention} !\n\n💭 ɴᴇᴡ ᴛᴏᴏʟs ᴄᴏᴍɪɴɢ sᴏᴏᴏᴏɴ [🛠️](https://telegra.ph/file/4b49de5c637964bd177c9.mp4)\n❗",
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -945,6 +989,46 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.CORONA_TXT,
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+elif query.data == "logogen":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+elif query.data == "wallpaper":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+elif query.data == "github":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+elif query.data == "ytsh":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
