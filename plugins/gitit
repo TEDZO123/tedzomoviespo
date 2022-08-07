@@ -1,4 +1,4 @@
-# © @AnonymousBoy1025
+# © @tedzo01
 import aiohttp
 from pyrogram import filters
 from pyrogram import Client
@@ -48,7 +48,8 @@ async def github(_, message):
 **Blog:** `{blog}`
 **Location:** `{location}`
 **Followers:** `{followers}`
-**Following:** `{following}`"""
+**Following:** `{following}`
+[©ᴛᴇᴅᴢᴏ](t.me/tedzo01)"""
             except Exception as e:
                 print(str(e))
                 pass
