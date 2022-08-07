@@ -1,6 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐂𝐋+𝐀𝐅+𝐕9+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝐃𝐌𝐗!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
 <p align="center">
-  <img src="https://te.legra.ph/file/3cba1116b088281614f55.jpg" alt="MKN BOTZ LOGO">
+  <img src="https://telegra.ph/file/450c33578b86ee925158d.jpg" alt="MKN BOTZ LOGO">
 </p>
 <h1 align="center">
   <b> 𝐂𝐋 𝐀𝐅 v9 </b>
