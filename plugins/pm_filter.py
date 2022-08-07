@@ -992,7 +992,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-elif query.data == "logogen":
+    elif query.data == "logogen":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -1002,7 +1002,7 @@ elif query.data == "logogen":
             reply_markup=reply_markup,
             parse_mode='html'
         )
-elif query.data == "wallpaper":
+    elif query.data == "wallpaper":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -1012,7 +1012,7 @@ elif query.data == "wallpaper":
             reply_markup=reply_markup,
             parse_mode='html'
         )
-elif query.data == "github":
+    elif query.data == "github":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -1022,7 +1022,7 @@ elif query.data == "github":
             reply_markup=reply_markup,
             parse_mode='html'
         )
-elif query.data == "ytsh":
+    elif query.data == "ytsh":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
