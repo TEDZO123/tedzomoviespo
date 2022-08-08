@@ -33,7 +33,7 @@ async def wall(client, message):
     m = await client.send_message(message.chat.id, "⚙️ **ᴄʀᴇᴀᴛɪɴɢ.. ʟᴏɢᴏ...**")
     try:
         text = get_text(message)
-        LOGO_API = f"https://api.safone.tech/qrcode?text={text"
+        LOGO_API = f"https://api.safone.tech/qrcode?text={text}"
         randc = LOGO_API
         MY_NAME = "@tedzo01"
         murl = (
