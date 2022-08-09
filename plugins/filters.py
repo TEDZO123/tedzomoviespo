@@ -292,7 +292,8 @@ async def smtedzomsg(_, message):
    #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
    #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
    #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
-        await message.reply_text(SITHIJATD_TEXT,
+        await message.reply_text(
+        text="tedzosir",
         reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(text="help",callback_data="help")],
                 [InlineKeyboardButton(text="home",callback_data="start")]
