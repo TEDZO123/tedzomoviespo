@@ -278,4 +278,22 @@ async def delallconfirm(client, message):
             ]),
             quote=True
         )
-
+@bot.on_message(filters.regex("@tedzo"))
+async def smtedzomsg(_, message):
+   # m = await message.reply("|( ͡❛ ͜ʖ ͡❛)")
+   #     await m.edit("||っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|  |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|   |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|     |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|      |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+   #     await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠") 
+   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
+   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
+   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
+        await message.reply_text(SITHIJATD_TEXT,
+        reply_markup=SITHIJATD_BUTTONS,
+        disable_web_page_preview=True
+)
+    # await m.delete()
