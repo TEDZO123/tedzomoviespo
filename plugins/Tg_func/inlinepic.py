@@ -8,10 +8,9 @@ from pyrogram.types import (
 )
 
 @Client.on_inline_query()
-async def search(bot, update, query: InlineQuery):
-
-string = query.query.lower()
-
+async def search(bot, update):
+    try:
+        string = update.query.lower()
     if string == "!pic":
     
     results = requests.get(
