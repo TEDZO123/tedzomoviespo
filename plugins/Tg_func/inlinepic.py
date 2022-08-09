@@ -21,9 +21,9 @@ async def search(bot, update):
                 title=update.query.capitalize(),
                 description=result,
                 caption="Made by @tedzosir",
-                photo_url=f"requests.get(
+                photo_url=requests.get(
         API + requests.utils.requote_uri(update.query)
-    ).json()["result"][:50]"
+    ).json()["result"][:50]
             )
         )
     
