@@ -17,6 +17,8 @@ async def search(bot, update):
     ).json()["result"][:50]
     
     answers = []
+    for result in results:
+    try:
     if update.query == "pic":
         answers.append(
             InlineQueryResultPhoto(
