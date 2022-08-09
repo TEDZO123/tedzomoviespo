@@ -12,20 +12,18 @@ API = "https://apibu.herokuapp.com/api/y-images?query="
 @Client.on_inline_query()
 async def search(bot, update):
     
-    results = requests.get(
-        API + requests.utils.requote_uri(update.query)
-    ).json()["result"][:50]
     
     answers = []
     for result in results:
-    try:
     if update.query == "pic":
         answers.append(
             InlineQueryResultPhoto(
                 title=update.query.capitalize(),
                 description=result,
                 caption="Made by @tedzosir",
-                photo_url=result
+                photo_url=f"requests.get(
+        API + requests.utils.requote_uri(update.query)
+    ).json()["result"][:50]"
             )
         )
     
