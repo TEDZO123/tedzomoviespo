@@ -8,7 +8,7 @@ from pyrogram.types import (
 )
 
 @Client.on_inline_query()
-async def search(bot, update):
+async def search(bot, update, query: InlineQuery):
 
 string = query.query.lower()
 
