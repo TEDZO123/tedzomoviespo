@@ -15,7 +15,7 @@ async def search(bot, update):
     
     answers = []
     for result in results:
-    if update.query == "pic":
+    if update.query == "!pic":
         answers.append(
             InlineQueryResultPhoto(
                 title=update.query.capitalize(),
