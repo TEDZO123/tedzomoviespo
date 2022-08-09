@@ -5,7 +5,6 @@ import random
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import FloodWait
-from pyrogram import Client, filters, idle
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid
 
@@ -288,10 +287,10 @@ async def smtedzomsg(_, message):
          await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
          await m.edit("|     |っ ͡❛ ͜ʖ ͡❛|っ🧠")
          await m.edit("|      |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠") 
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
+         await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n")                   🗑")
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n")                  🗑")
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n ")                💩")
         await message.reply_text(
         text="tedzosir",
         reply_markup=InlineKeyboardMarkup([
