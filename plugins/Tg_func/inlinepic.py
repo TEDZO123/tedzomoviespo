@@ -7,23 +7,23 @@ from pyrogram.types import (
     InlineQueryResultPhoto
 )
 
+API = "https://apibu.herokuapp.com/api/y-images?query="
+
 @Client.on_inline_query()
 async def search(bot, update):
-    try:
-        string = update.query.lower()
-    if string == "!pic":
     
     results = requests.get(
-        "https://apibu.herokuapp.com/api/y-images?query=" + requests.utils.requote_uri(update.query)
+        API + requests.utils.requote_uri(update.query)
     ).json()["result"][:50]
     
     answers = []
+    if update.query == "pic":
     for result in results:
         answers.append(
             InlineQueryResultPhoto(
                 title=update.query.capitalize(),
                 description=result,
-                caption="Made by @subhan011",
+                caption="Made by @tedzosir",
                 photo_url=result
             )
         )
