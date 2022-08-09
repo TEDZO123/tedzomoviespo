@@ -280,18 +280,18 @@ async def delallconfirm(client, message):
         )
 @Client.on_message(filters.regex("@tedzo"))
 async def smtedzomsg(_, message):
-   # m = await message.reply("|( ͡❛ ͜ʖ ͡❛)")
-   #     await m.edit("||っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|  |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|   |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|     |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|      |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-   #     await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠") 
-   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
-   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
-   #     await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
+     m = await message.reply("|( ͡❛ ͜ʖ ͡❛)")
+         await m.edit("||っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|  |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|   |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|     |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|      |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+         await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠") 
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
+         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
         await message.reply_text(
         text="tedzosir",
         reply_markup=InlineKeyboardMarkup([
@@ -300,4 +300,4 @@ async def smtedzomsg(_, message):
             ]),
         disable_web_page_preview=True
 )
-    # await m.delete()
+     await m.delete()
