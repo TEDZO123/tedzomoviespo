@@ -277,26 +277,3 @@ async def delallconfirm(client, message):
             ]),
             quote=True
         )
-@Client.on_message(filters.regex("@tedzo"))
-async def smtedzomsg(_, message):
-     m = await message.reply("|( ͡❛ ͜ʖ ͡❛)")
-         await m.edit("||っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|  |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|   |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|     |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|      |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|       |っ ͡❛ ͜ʖ ͡❛|っ🧠")
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n")                   🗑")
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n")                  🗑")
-         await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n ")                💩")
-        await message.reply_text(
-        text="tedzosir",
-        reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text="help",callback_data="help")],
-                [InlineKeyboardButton(text="home",callback_data="start")]
-            ]),
-        disable_web_page_preview=True
-)
-     await m.delete()
