@@ -386,3 +386,20 @@ To Get Sticker ID
     FOND_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗙𝗢𝗡𝗧𝗦☽︎
 𝙵𝙾𝙽𝚃 𝙸𝚂 𝙰 𝙼𝙾𝙳𝚄𝙻𝙴 𝙵𝙾𝚁 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝚂𝚃𝚈𝙻𝙸𝚂𝙷.
 𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈."""
+    GITHUB_TXT = """➪/guthub - search github user info
+
+➤ 𝖭𝗈𝗍𝖾:
+Only for pm  """
+    LOGOGEN_TXT = """➪/logo - text to logo gen 
+
+➤ 𝖭𝗈𝗍𝖾:
+Only for pm """
+    WALL_TXT = """➪/wall - search hd wallpaper s
+
+➤ 𝖭𝗈𝗍𝖾:
+Only for pm  """
+    DYNO_TXT = """ONLY ADMINS """
+
+    YTSH_TXT = """➪/ytsh - YOUTUBE VIDEOS SERCH NOW """
+   YTDL_TXT = """➪/ytdl - YOUTUBE VIDEOS DOWNLOAD NOW """
+   
