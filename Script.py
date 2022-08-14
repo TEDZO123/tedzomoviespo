@@ -390,6 +390,10 @@ To Get Sticker ID
 
 ➤ 𝖭𝗈𝗍𝖾:
 Only for pm  """
+GITTHUB_TXT = """➪/mm - search github user info
+
+➤ 𝖭𝗈𝗍𝖾:
+Only for pm  """
     LOGOGEN_TXT = """➪/logo - text to logo gen 
 
 ➤ 𝖭𝗈𝗍𝖾:
