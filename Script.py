@@ -390,18 +390,21 @@ To Get Sticker ID
 
 ➤ 𝖭𝗈𝗍𝖾:
 Only for pm  """
-GITTHUB_TXT = """➪/mm - search github user info
+    GITTHUB_TXT = """➪/mm - search github user info
 
 ➤ 𝖭𝗈𝗍𝖾:
 Only for pm  """
+
     LOGOGEN_TXT = """➪/logo - text to logo gen 
 
 ➤ 𝖭𝗈𝗍𝖾:
 Only for pm """
+
     WALL_TXT = """➪/wall - search hd wallpaper s
 
 ➤ 𝖭𝗈𝗍𝖾:
 Only for pm  """
+
     DYNO_TXT = """ONLY ADMINS """
 
     YTSH_TXT = """➪/ytsh - YOUTUBE VIDEOS SERCH NOW """
