@@ -1,5 +1,5 @@
 import requests
-from pyrogram import Client as bot
+from pyrogram import Client as Bot
 from io import BytesIO
 from pyrogram import filters
 from pyrogram import idle
