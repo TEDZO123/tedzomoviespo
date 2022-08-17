@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 from buttons import MENU_BUTTON
 
 @bot.on_message(filters.regex("@sithijatd"))
-async def sithijatdmsg(_, message):
-    m = await message("|( ͡❛ ͜ʖ ͡❛)")
+async def sithijatdmsg(_,message):
+    m = message
       await m.edit("||っ ͡❛ ͜ʖ ͡❛|っ🧠")
-      await m.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
+      await message.edit("| |っ ͡❛ ͜ʖ ͡❛|っ🧠")
       await m.edit("|  |っ ͡❛ ͜ʖ ͡❛|っ🧠")
       await m.edit("|   |っ ͡❛ ͜ʖ ͡❛|っ🧠")
       await m.edit("|    |っ ͡❛ ͜ʖ ͡❛|っ🧠")
