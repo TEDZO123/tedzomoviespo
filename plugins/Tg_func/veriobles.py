@@ -19,8 +19,9 @@ async def sithijatdmsg(_, message):
       await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ🧠\n                  🗑")
       await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  🗑")
       await m.edit("|        |っ ͡❛ ͜ʖ ͡❛|っ  \n                  💩")
-        await message.reply_text(SITHIJATD_TEXT,
-        reply_markup=SITHIJATD_BUTTONS,
+        await message.reply_text(
+        text="hi bro",
+        reply_markup=MENU_BUTTON,
         disable_web_page_preview=True
 )
      await m.delete()
