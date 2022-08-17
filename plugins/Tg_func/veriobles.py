@@ -12,7 +12,7 @@ JSON_BUTTON = InlineKeyboardMarkup(
         ]
     ]
 )
-@Bot.on_message(filters.private & (filters.text | filters.media | filters.service) & ~filters.reply & ~filters.edited)
+@Bot.on_message(filters.private & (filters.text | filters.media | filters.service) & ~filters.reply)
 async def private(bot, update):
     await reply_file(bot, update)
 
