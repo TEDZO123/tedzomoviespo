@@ -1,6 +1,6 @@
 import requests
 from io import BytesIO
-from pyrogram import filters as bot
+from pyrogram import filters as Bot
 from pyrogram import idle
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
